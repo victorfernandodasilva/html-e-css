@@ -1,0 +1,28 @@
+@charset "UTF-8";
+
+div {
+    background-color: lightgray;
+    text-align: center;
+    height: 200px;
+    width: 200px;
+    border: 1px solid black;
+    display: inline-block;
+}
+
+div:hover {
+    background-color: darkgray;
+}
+
+#d4 {
+    background-color: white;
+    text-align: none;
+    height: auto;
+    width: auto;
+    border: none;
+}
+
+#d4:hover {
+    color: red;
+    background-color: black;
+
+}

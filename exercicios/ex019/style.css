@@ -1,0 +1,9 @@
+@charset "UTF-8";
+
+h1#principal {
+    color: aliceblue;
+}
+
+.skibidi {
+    background-image: linear-gradient(to bottom, yellow, black);
+}
