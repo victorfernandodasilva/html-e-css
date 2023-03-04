@@ -1,4 +1,4 @@
 # html-e-css
  Repositório de estudos
 
- Estou caprendendo programação e agora estou gerenciando meus repositórios
+ Estou aprendendo programação e agora estou gerenciando meus repositórios
