@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabelas</title>
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+        }
+
+        table {
+            width: 500px;
+            height: 20px;
+            border-collapse: collapse;
+        }
+
+        thead {
+            background-color: darkgray;
+            color: #fff;
+        }
+
+        tfoot {
+            background-color: darkgray;
+            color: #fff;
+            font-weight: bold;
+        }
+
+        td, th {
+            border: 1px solid black;
+            text-align: center;
+            vertical-align: middle;
+            padding: 10px;
+        }
+
+        .numero {
+            text-align: end;
+        }
+
+    </style>
+</head>
+<body>
+    <h1>Uso de tabelas grandes</h1>
+    <!--
+        Anatomia para tabelas grandes:
+    TABLE
+        THEAD
+            td, tr, th
+        TBODY
+            td, tr, th
+        TFOOT
+            td, tr, th
+    TABLE
+    -->
+    <table>
+        <thead>
+            <tr>
+                <th>
+                    Estado
+                </th>
+                <th>
+                    População
+                </th>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>São Paulo</td>
+                <td class="numero">45 919 043</td>
+            </tr>
+            <tr>
+                <td>Minas Gerais</td>
+                <td class="numero">21 168 791</td>
+            </tr>
+            <tr>
+                <td>Rio de Janeiro</td>
+                <td class="numero">17 264 943</td>
+            </tr>
+        </tbody>
+        <tfoot>
+            <tr>
+                <th>Total de habitantes</th>
+                <td class="numero">0000</td>
+            </tr>
+        </tfoot>
+    </table>
+</body>
+</html>
