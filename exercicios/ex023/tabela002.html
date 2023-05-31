@@ -45,6 +45,9 @@
     <!--
         Anatomia para tabelas grandes:
     TABLE
+        
+        CAPITION
+            Apenas texto
         THEAD
             td, tr, th
         TBODY
@@ -54,12 +57,15 @@
     TABLE
     -->
     <table>
+        <caption>
+            Tabelas grandes  config.
+        </caption>
         <thead>
             <tr>
-                <th>
+                <th scope="col">
                     Estado
                 </th>
-                <th>
+                <th scope="col">
                     População
                 </th>
             </tr>
@@ -80,7 +86,7 @@
         </tbody>
         <tfoot>
             <tr>
-                <th>Total de habitantes</th>
+                <th scope="row">Total de habitantes</th>
                 <td class="numero">0000</td>
             </tr>
         </tfoot>
