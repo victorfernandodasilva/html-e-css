@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tabela usando spans</title>
+    <style>
+         td, th {
+            border: solid black 1px;
+            border-collapse: collapse;
+            padding: 1px 40px;
+            text-align: center;
+            font-weight: bolder;
+        }
+    </style>
+</head>
+<body>
+    <table>
+        <thead>
+
+        </thead>
+        <tbody>
+            <tr>
+                <td colspan="5">A</td>
+                <td rowspan="4">B</td>
+                
+            </tr>
+            <tr>
+                <td rowspan="3">C</td>
+                <td colspan="2">D</td>
+                <td>E</td>
+                <td>F</td>
+            </tr>
+            <tr>
+                <td>G</td>
+                <td>H</td>
+                <td>I</td>
+            </tr>
+            <tr>
+                <td>J</td>
+                <td>L</td>
+                <td>M</td>
+            </tr>
+            <tr>
+                <td>N</td>
+            </tr>
+        </tbody>
+        <tfoot>
+
+        </tfoot>
+    </table>
+</body>
+</html>
